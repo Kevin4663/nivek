@@ -1,8 +1,7 @@
 # Kevin Hin — Portfolio
 
 A lightweight, static portfolio built with semantic HTML and CSS. Pico CSS is
-stored locally in `public/css/`; there is no JavaScript, package manager, or
-build step.
+stored locally in `public/css/`.
 
 ## Preview locally
 
