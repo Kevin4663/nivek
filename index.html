@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kevin Hin's portfolio: projects, experience, education, and résumé.">
+    <meta name="description" content="Kevin Hin's portfolio: software projects, technical skills, experience, and education.">
     <meta name="theme-color" content="#142b3b">
     <title>Kevin Hin — Portfolio</title>
     <link rel="icon" type="image/svg+xml" href="public/logo.svg">
@@ -33,8 +33,8 @@
           <p class="eyebrow">Portfolio</p>
           <h1 id="intro-title">Hi, I’m <span>Kevin Hin</span>.</h1>
           <p class="hero-lede">
-            I build tools I’d actually use — turning my interests in gaming and
-            tech into real, functional web apps.
+            I’m a computer science student and software developer building
+            full-stack applications, APIs, and cloud-based tools.
           </p>
           <div class="hero-actions">
             <a class="button button-light" href="#projects">View my work</a>
@@ -45,28 +45,28 @@
 
       <section class="section container" id="about" aria-labelledby="about-title">
         <div class="section-heading">
-          <p class="eyebrow">A little about me</p>
-          <h2 id="about-title">Curious by nature, builder by habit.</h2>
+          <p class="eyebrow">Technical profile</p>
+          <h2 id="about-title">Building useful software, from UI to cloud.</h2>
         </div>
         <div class="about-grid">
           <p class="about-copy">
-            I’m a tech enthusiast and full-stack developer who enjoys exploring
-            new technologies and building projects that solve real-world
-            problems. Outside of development, I’m into esports, gaming, and
-            tinkering with everything from PCs to 3D printing.
+            I’m a computer science student at Wayne State University with
+            experience building full-stack web applications and cloud
+            integrations. I enjoy working across the stack—from designing APIs
+            and data layers to creating personalized user experiences.
           </p>
           <dl class="skills">
             <div>
               <dt>Languages</dt>
-              <dd>Python, JavaScript, C++, Java, HTML, CSS</dd>
+              <dd>C#, Python, TypeScript, C/C++, Java, HTML, CSS, SQL</dd>
             </div>
             <div>
-              <dt>Technologies</dt>
-              <dd>Node.js, React, Express, MongoDB</dd>
+              <dt>Frameworks &amp; libraries</dt>
+              <dd>.NET, Node.js, React, Express, Next.js, NestJS, Tailwind CSS</dd>
             </div>
             <div>
-              <dt>Tools</dt>
-              <dd>VS Code, Git</dd>
+              <dt>Cloud &amp; technologies</dt>
+              <dd>Azure Functions, API Management, Cosmos DB, MongoDB, PostgreSQL, Vercel, Git, Linux/WSL</dd>
             </div>
           </dl>
         </div>
@@ -78,31 +78,52 @@
             <p class="eyebrow">Selected work</p>
             <h2 id="projects-title">Projects</h2>
           </div>
-          <article class="project-card">
-            <div class="project-topline">
-              <div>
-                <p class="eyebrow">Full-stack application</p>
-                <h3>DB 4 LOL</h3>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-topline">
+                <div>
+                  <p class="eyebrow">MERN web app</p>
+                  <h3>DB 4 LOL</h3>
+                </div>
               </div>
-              <time datetime="2025-08">Aug 2025</time>
-            </div>
-            <p>
-              A full-stack MERN app integrating with the Riot Games API to
-              display champion builds, player stats, and game data. It includes
-              version tracking and automatic database synchronization.
-            </p>
-            <h4>Highlights</h4>
-            <ul class="feature-list">
-              <li>REST API built with Node.js and Express</li>
-              <li>MongoDB persistence with version tracking</li>
-              <li>Upstash Redis rate limiting</li>
-              <li>React interface styled with Tailwind CSS and DaisyUI</li>
-            </ul>
-            <p class="tech-line"><strong>Technology:</strong> MERN, Riot API, Redis, Tailwind CSS</p>
-            <a href="https://github.com/Kevin4663" target="_blank" rel="noopener noreferrer">
-              Visit my GitHub <span aria-hidden="true">↗</span>
-            </a>
-          </article>
+              <p>
+                A full-stack application using the Riot Games API to show League
+                of Legends champion item builds, player stats, and game data.
+              </p>
+              <h4>Highlights</h4>
+              <ul class="feature-list">
+                <li>Built a REST API with Node.js and Express for Riot game data</li>
+                <li>Serves champion, item, and player information</li>
+                <li>Added Upstash Redis rate limiting to control API usage and respect request quotas</li>
+              </ul>
+              <p class="tech-line"><strong>Technology:</strong> MongoDB, Express, React, Node.js, Riot API, Upstash Redis</p>
+              <a href="https://github.com/Kevin4663" target="_blank" rel="noopener noreferrer">
+                View GitHub profile <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+            <article class="project-card">
+              <div class="project-topline">
+                <div>
+                  <p class="eyebrow">Next.js + Spotify API</p>
+                  <h3>Sea Spot</h3>
+                </div>
+              </div>
+              <p>
+                A personalized music insight platform with Spotify sign-in, an
+                MBTI-style personality quiz, and algorithmic song recommendations.
+              </p>
+              <h4>Highlights</h4>
+              <ul class="feature-list">
+                <li>Integrated Spotify OAuth and real-time API calls</li>
+                <li>Implemented OAuth 2.0 authentication and session management with Better Auth</li>
+                <li>Uses listening history and top artists to generate personalized recommendations</li>
+              </ul>
+              <p class="tech-line"><strong>Technology:</strong> Next.js, Spotify API, Better Auth, OAuth 2.0</p>
+              <a href="https://github.com/Kevin4663" target="_blank" rel="noopener noreferrer">
+                View GitHub profile <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -115,29 +136,31 @@
           <article class="timeline-card">
             <div class="timeline-heading">
               <div>
-                <h3>Advanced Repair Agent</h3>
-                <p class="muted">Best Buy, Geek Squad · Westland, MI</p>
+                <h3>IT Intern</h3>
+                <p class="muted">Meijer, Pharmacy Core Services · Grand Rapids, MI</p>
               </div>
-              <p class="date">Aug 2024 — Present</p>
+              <p class="date">May 2026 — Aug 2026</p>
             </div>
             <ul>
-              <li>Use diagnostic equipment and testing tools to evaluate and repair hardware components.</li>
-              <li>Troubleshoot software issues using monitoring tools, crash dumps, and logs.</li>
-              <li>Provide technical support by phone, email, and in-person consultations.</li>
+              <li>Created a serverless, vendor-agnostic API using Azure Functions and API Management to integrate automated, HIPAA-compliant data retrieval with the pharmacy IVR system.</li>
+              <li>Reduced manual prescription entry and pharmacist intervention, helping mitigate customer input errors and shorten call durations.</li>
+              <li>Designed a Cosmos DB persistence layer to cache patient data, improve performance, and support a personalized IVR experience.</li>
+              <li>Presented a proof of concept and ROI analysis to executive leadership, outlining opportunities to reduce pharmacy labor bottlenecks and technical inefficiencies.</li>
             </ul>
           </article>
           <article class="timeline-card">
             <div class="timeline-heading">
               <div>
-                <h3>Customer Service Representative</h3>
-                <p class="muted">Micro Center · Madison Heights, MI</p>
+                <h3>Advanced Repair Agent</h3>
+                <p class="muted">Best Buy, Geek Squad · Westland, MI</p>
               </div>
-              <p class="date">Nov 2021 — Dec 2022</p>
+              <p class="date">Aug 2024 — May 2026</p>
             </div>
             <ul>
-              <li>Met company goals for warranty plan attachment and customer account creation.</li>
-              <li>Processed point-of-sale transactions and returns accurately while ensuring customer satisfaction.</li>
-              <li>Provided basic technical support and product information to customers.</li>
+              <li>Analyzed application crashes and system instability using monitoring tools, crash dumps, and system event logs to isolate root causes.</li>
+              <li>Diagnosed complex hardware and software failures across diverse consumer electronics.</li>
+              <li>Translated technical diagnostics into clear insights for non-technical clients.</li>
+              <li>Delivered technical support in person, by telephone, and through digital channels.</li>
             </ul>
           </article>
         </div>
@@ -153,12 +176,10 @@
             <div class="timeline-heading">
               <div>
                 <h3>Wayne State University</h3>
-                <p class="muted">B.S. Computer Science</p>
+                <p class="muted">B.S. Computer Science · Detroit, MI</p>
               </div>
-              <p class="date">Graduation: Summer 2026</p>
+              <p class="date">Graduation: Fall 2026</p>
             </div>
-            <p><strong>GPA:</strong> 3.0 / 4.0</p>
-            <p><strong>Relevant coursework:</strong> Object-Oriented Programming, Data Structures &amp; Algorithms, Web Development, Database Management</p>
           </article>
         </div>
       </section>
@@ -179,9 +200,12 @@
           </div>
           <aside class="contact-card" aria-label="Résumé and contact">
             <h3>Let’s connect</h3>
-            <p>Download a copy of my résumé or get in touch.</p>
+            <p>Download a copy of my résumé or reach out directly.</p>
             <a class="button" href="public/resume.pdf" download>Download résumé</a>
             <a class="text-link" href="mailto:kevinhin0830@gmail.com">kevinhin0830@gmail.com</a>
+            <a class="text-link" href="tel:+13133384319">(313) 338-4319</a>
+            <a class="text-link" href="https://linkedin.com/in/kevin-hhin/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://github.com/Kevin4663" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
           </aside>
         </div>
       </section>

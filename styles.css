@@ -265,8 +265,19 @@ a {
   box-shadow: var(--pico-card-box-shadow);
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
 .project-card {
-  max-width: 52rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card > a {
+  margin-top: auto;
 }
 
 .project-topline,
@@ -303,9 +314,6 @@ a {
 }
 
 .feature-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.35rem 1.5rem;
   padding-left: 1.2rem;
 }
 
@@ -423,7 +431,8 @@ a {
   }
 
   .about-grid,
-  .resume-layout {
+  .resume-layout,
+  .project-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
@@ -438,10 +447,6 @@ a {
   .timeline-heading {
     flex-direction: column;
     gap: 0.35rem;
-  }
-
-  .feature-list {
-    grid-template-columns: 1fr;
   }
 
   .resume-preview iframe {
